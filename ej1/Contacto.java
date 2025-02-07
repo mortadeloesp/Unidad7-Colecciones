@@ -22,7 +22,7 @@ public class Contacto {
     }
 
     public static Contacto createContact (String name, String phoneNumber) {
-        Contacto contacto = new Contacto("Laura","921 32 23 43");
+        Contacto contacto = new Contacto(name, phoneNumber);
         return contacto;
     }
 }
